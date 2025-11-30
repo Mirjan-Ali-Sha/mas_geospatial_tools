@@ -41,7 +41,7 @@ All packages are typically included with QGIS:
 ### Method 3: From Source (Development)
 
 1. Clone repository
-git clone https://github.com/masmir687/mas_geospatial_tools.git
+git clone https://github.com/Mirjan-Ali-Sha/mas_geospatial_tools.git
 
 2. Navigate to QGIS plugins directory
 cd ~/.local/share/QGIS/QGIS3/profiles/default/python/plugins/
@@ -223,9 +223,9 @@ print(f"GDAL: {gdal.version}")
 
 ## Support
 
-- **Issues**: https://github.com/masmir687/mas_geospatial_tools/issues
-- **Documentation**: https://mas-geospatial-tools.readthedocs.io
-- **Email**: support@masgeospatial.com
+- **Issues**: https://github.com/Mirjan-Ali-Sha/mas_geospatial_tools/issues
+- **Documentation**: https://github.com/Mirjan-Ali-Sha/mas_geospatial_tools/wiki
+- **Email**: mastools.help@gmail.com
 
 ## License
 
