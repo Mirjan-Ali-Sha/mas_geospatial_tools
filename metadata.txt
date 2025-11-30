@@ -1,0 +1,31 @@
+[general]
+name=MAS Geospatial Tools
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
+description=Advanced hydrological and geomorphometric analysis tools
+version=1.0.0
+author=MAS
+email=your.email@example.com
+
+about=Comprehensive processing toolbox providing 177 optimized algorithms for:
+    - Geomorphometric Analysis (92 tools)
+    - Hydrological Analysis (61 tools)
+    - Stream Network Analysis (24 tools)
+    Integrates WhiteboxTools capabilities with QGIS Processing framework.
+
+tracker=https://github.com/masmir687/mas_geospatial_tools/issues
+repository=https://github.com/masmir687/mas_geospatial_tools
+homepage=https://github.com/masmir687/mas_geospatial_tools
+
+category=Processing
+icon=icons/mas_icon.svg
+experimental=False
+deprecated=False
+
+tags=hydrology,geomorphology,terrain,analysis,DEM,watershed,stream,processing
+
+changelog=1.0.0
+    - Initial release
+    - 92 Geomorphometric analysis tools
+    - 61 Hydrological analysis tools
+    - 24 Stream network analysis tools

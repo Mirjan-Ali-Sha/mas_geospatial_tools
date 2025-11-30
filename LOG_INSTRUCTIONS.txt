@@ -1,0 +1,20 @@
+# Instructions for checking QGIS logs
+# =====================================
+# 
+# The plugin is auto-disabling, which means it's crashing during initialization.
+# 
+# To find the error:
+# 
+# 1. In QGIS, go to: View → Panels → Log Messages (or press Ctrl+5)
+# 2. In the Log Messages panel, select the "Plugins" tab (or "Python" tab)
+# 3. Enable the plugin again while watching the log panel
+# 4. Look for red error messages when it crashes
+# 
+# Copy ALL error messages that appear, especially ones mentioning:
+# - mas_geospatial_tools
+# - ImportError
+# - ModuleNotFoundError
+# - AttributeError
+# - Traceback
+# 
+# The error will tell us exactly which file/algorithm is causing the crash.

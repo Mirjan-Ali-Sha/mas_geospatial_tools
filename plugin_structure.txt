@@ -1,0 +1,61 @@
+mas_geospatial_tools/
+├── __init__.py
+├── metadata.txt
+├── mas_plugin.py
+├── mas_provider.py
+├── requirements.txt
+├── icons/
+│   └── mas_icon.svg
+├── core/
+│   ├── __init__.py
+│   ├── array_utils.py
+│   ├── dem_utils.py
+│   ├── flow_algorithms.py
+│   ├── hydro_utils.py
+│   ├── morphometry.py
+│   └── stream_analysis.py
+└── algorithms/
+    ├── __init__.py
+    ├── geomorphometric/
+    │   ├── __init__.py
+    │   ├── curvature_algorithms.py
+    │   ├── directional_analysis.py
+    │   ├── feature_detection.py
+    │   ├── hillshade_algorithms.py
+    │   ├── hypsometric_analysis.py
+    │   ├── multiscale_analysis.py
+    │   ├── openness.py
+    │   ├── position_algorithms.py
+    │   ├── relative_position.py
+    │   ├── roughness_algorithms.py
+    │   ├── slope_algorithms.py
+    │   ├── statistical_algorithms.py
+    │   ├── terrain_complexity.py
+    │   ├── visibility_algorithms.py
+    │   └── wetness_algorithms.py
+    ├── hydrological/
+    │   ├── __init__.py
+    │   ├── basin_analysis.py
+    │   ├── dem_quality.py
+    │   ├── depression_algorithms.py
+    │   ├── flow_accumulation.py
+    │   ├── flow_direction.py
+    │   ├── flow_distance.py
+    │   ├── flow_indices.py
+    │   ├── flow_length.py
+    │   ├── flow_path_statistics.py
+    │   ├── flow_routing_extended.py
+    │   ├── hillslopes.py
+    │   ├── hydro_enforcement.py
+    │   ├── sink_analysis.py
+    │   ├── snap_pour_points.py
+    │   └── watershed_delineation.py
+    └── stream_network/
+        ├── __init__.py
+        ├── stream_cleaning.py
+        ├── stream_extraction.py
+        ├── stream_link_analysis.py
+        ├── stream_network_analysis.py
+        ├── stream_ordering.py
+        ├── valley_extraction.py
+        └── vector_stream_network.py
